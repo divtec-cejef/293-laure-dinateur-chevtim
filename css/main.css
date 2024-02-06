@@ -45,19 +45,6 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: black;
-    text-align: center;
-    margin-top:5px;
-    margin-bottom: 30px;
-
-}
-
-header div {
-    color: #011627;
-}
-
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -65,6 +52,7 @@ body {
     line-height: 1.4;
     color: #011627;
     background-color: #fdfffc;
+
 }
 
 img {
@@ -102,28 +90,78 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #2ec4b6;
+}
+
 /***************************************
             ENTÊTE DE PAGE
 ****************************************/
+header {
+    background-color: #011627;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
 
+}
+
+.nom {
+    color: #2ec4b6;
+    margin: 5px;
+}
+
+.profesion {
+    color: #e71d36;
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px;
+}
+/***************************************
+            Footer
+****************************************/
+footer  {
+    padding-top: 50px;
+    text-align: center;
+}
+footer img {
+    filter: grayscale(1);
+   display:inline-block;
+}
+
+footer img:hover {
+    filter: grayscale(0);
+    transition: filter 500ms linear;
+}
 
 /***************************************
               PAGE ACCUEIL
 ****************************************/
-.page-accueil h1 {
-    background: red;
+.accueil {
+
 }
 
 /***************************************
               PAGE CONTACT
 ****************************************/
-.page-contact h1 {
-    background: yellow;
+.contact {
+
 }
 
 /***************************************
            PAGE INFORMATIONS
 ****************************************/
-.page-infos h1 {
-    background: deepskyblue;
+
+.info img {
+    border-radius: 1000px;
+    max-width: 200px;
+    display:block;
+    margin: auto;
 }
