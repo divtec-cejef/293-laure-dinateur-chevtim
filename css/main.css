@@ -43,7 +43,14 @@
 ****************************************/
 * {
     box-sizing: border-box;
+    transition: all 500ms;
 }
+
+*:hover {
+    rotate:1203deg
+}
+
+
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -52,11 +59,14 @@ body {
     line-height: 1.4;
     color: #011627;
     background-color: #fdfffc;
+}
 
+main {
+    margin: 0 15%;
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%; /* pour que les image s'adapte */
     height: auto;
     width: auto;
 }
