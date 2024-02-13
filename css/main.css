@@ -111,7 +111,7 @@ header ul li {
     margin: 0 15px;
 }
 
-.accueil {
+header .accueil {
     display: none;
 }
 
@@ -184,10 +184,33 @@ footer ul li img:hover {
 /*************************************
             PAGE ACCUEIL
  ************************************/
-.page-accueil h1 {
-    color: yellow;
+.accueil h1 {
+    text-align: center;
 }
 
+.accueil main ul {
+    /* resets des style de la liste */
+    list-style: none;
+    padding:0;
+    margin:0;
+    /* flex */
+    display: flex;
+    flex-wrap: wrap;
+}
+.accueil li {
+    vertical-align:top;
+    flex-grow: 1;
+    flex-basis: 45%;
+    padding: 1rem 2.5% ;
+}
+figure {
+    margin: 0;
+
+}
+
+.accueil figcaption {
+    overflow: hidden;
+}
 /*************************************
             PAGE CONTACT
  ************************************/
