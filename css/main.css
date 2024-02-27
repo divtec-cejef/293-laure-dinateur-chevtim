@@ -94,22 +94,6 @@ a:hover {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
 }
 
-/*************************************
-            Pour les diférents screen
- ************************************/
-@media screen and (min-width: 660px) {
-    header {
-        border-bottom: 5px solid #2ec4b6;
-    }
-
-    .accueil li {
-        flex-grow: 3;
-        flex-basis: 33%;
-
-    }
-}
-
-}
 
 /*************************************
             ENTÊTE DU SITE
@@ -245,3 +229,4 @@ figure {
 .page-infos h1 {
     color: aqua;
 }
+
